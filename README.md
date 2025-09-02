@@ -29,8 +29,8 @@ Follow these instructions to set up the project locally.
 ### Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Prescripto-Hospital_Management_System.git
-   cd Prescripto-Hospital_Management_System
+   git clone https://github.com/your-username/Prescripto--Doctor-Appointment-Booking.git
+   cd Prescripto--Doctor-Appointment-Booking
 
 ## Install dependencies
 
@@ -75,7 +75,7 @@ Follow these instructions to set up the project locally.
 Hospital Management, MERN Stack, MongoDB, Express.js, React, Node.js, Healthcare App, Patient Records, Appointments.
 
 # Contributors
-Niraj Kumar [Github](https://github.com/meniraj07)
+Kumara Swamy Swayamvarapu [Github](https://github.com/Kumar-s29)
 
 # Deployment Links
 [Prescripto Backend](https://prescriptobackend-4ylq.onrender.com)
@@ -85,7 +85,5 @@ Niraj Kumar [Github](https://github.com/meniraj07)
 [Prescripto Admin/Doctor Panel](https://prescripto-hospital-management-system-c29o.vercel.app/)
 
 # Contact
-For any questions or feedback, please contact [Niraj Kumar](https://www.linkedin.com/in/nirajkumar-nk/)
+For any questions or feedback, please contact []Kumara Swamy](https://www.linkedin.com/in/kumara-swamy-swayamvarapu-381587270/)
 
-# License
-This project is licensed under the MIT License.
