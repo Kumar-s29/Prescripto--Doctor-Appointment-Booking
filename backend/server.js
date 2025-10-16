@@ -15,7 +15,16 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors())// Allow requests only from your Netlify frontend
+const allowedOrigins = ["https://prescriptoapl.netlify.app"];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 // api endpoints
 app.use("/api/user", userRouter)
