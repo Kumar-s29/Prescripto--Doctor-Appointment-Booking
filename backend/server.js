@@ -15,7 +15,11 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: ["https://prescriptoapp-dz08.onrender.com"], // your frontend Render domain
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 // api endpoints
 app.use("/api/user", userRouter)
